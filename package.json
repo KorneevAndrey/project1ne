@@ -10,7 +10,7 @@
   "scripts": {
     "start": "webpack serve",
     "build": "webpack",
-    "test": "node ./src/index.js test",
+    "test": "node ./src/test.js test",
     "lint:es": "eslint --ext .js,.jsx,.ts,.tsx src",
     "lint:es:fix": "npm run lint:es -- --fix",
     "prepare": "husky install"
