@@ -1,8 +1,5 @@
-function addNumbers() {
-  const num1 = parseFloat(document.getElementById('number1').value);
-  const num2 = parseFloat(document.getElementById('number2').value);
-  const result = num1 + num2;
-  document.getElementById('result').innerText = `Result: ${result}`;
-}
+import React from 'react';
+import reactDom from 'react-dom';
+import test from './components/test';
 
-document.getElementById('calculate').addEventListener('click', addNumbers);
+reactDom.render(<test />, document.getElementById('root'));
